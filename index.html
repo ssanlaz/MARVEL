@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARVEL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Listado Personajes Originales de Marvel</h1>
+    <table>
+        
+        <tr>
+            <td>Ca<br></brZ><img src="img/Ca.png" class="tamaño"></td>
+            <td>Dd<br><img src="img/Dd.png" class="tamaño"></td>
+            <td colspan="4" id="texto">Tabla Periodica de Marvel</td>
+            <td>Tr<br><img src="img/Tr.png" class="tamaño"></td>
+        </tr>
+        <tr>
+            <td>Bb<br><img src="img/Bb.png" class="tamaño"></td>
+            <td>Fa<br><img src="img/Fa.png" class="tamaño"></td>
+            <td>Hu<br><img src="img/Hu.png" class="tamaño"></td>
+            <td>Sw<br><img src="img/Sw.png" class="tamaño"></td>
+            <td>Nv<br><img src="img/Nv.png" class="tamaño"></td>
+            <td>Im<br><img src="img/Im.png" class="tamaño"></td>
+            <td>Ka<br><img src="img/Ka.png" class="tamaño"></td>
+        </tr>
+        <tr>
+            <td>Lj<br><img src="img/Lj.png" class="tamaño"></td>
+            <td>Ha<br><img src="img/Ha.png" class="tamaño"></td>
+            <td>If<br><img src="img/If.png" class="tamaño"></td>
+            <td>Bw<br><img src="img/Bw.png" class="tamaño"></td>
+            <td>Sm<br><img src="img/Sm.png" class="tamaño"></td>
+            <td>Sh<br><img src="img/Sh.png" class="tamaño"></td>
+            <td>Lc<br><img src="img/Lc.png" class="tamaño"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><img src="img/logo.png" id="logo"></td>
+            <td>Bp<br><img src="img/Bp.png" class="tamaño"></td>
+            <td>Gr<br><img src="img/Gr.png" class="tamaño"></td>
+            <td>Ds<br><img src="img/Ds.png" class="tamaño"></td>
+            <td colspan="2"><img src="img/stanlee.jpg" id="stanlee"></td>
+           
+        </tr>
+    </table>
+    <br>
+    <h1>Formulario web</h1>
+    <form name="Formulario de clinica" method="post" action="mailto:sandra.sanchez.laz@gmail.com">
+    <fieldset>
+        <legend>DATOS PERSONALES</legend>
+        <br>
+      Nombre: <input type="text" name="nombre" placeholder="ej.sandra" required>
+      <br>
+      Apellidos: <input type="text"  name="Apellidos" placeholder="ej.sanchez lazaro" required>
+      <br>
+      Fecha de nacimiento : <input type="date" name="date">
+      <br>
+      Correo electonico : <input type="email" name="email">
+      <br>
+      Telefono: <input type="tel" name="Telefono">
+      <p></p>
+      <legend>ELIGE ENTRE LAS SIGUIENTES OPCIONES</legend>
+      <br>
+      <select>
+        <option value="1">Sesion completa</option>
+        <option value="2">media sesion</option>
+        <option value="3">Bono 5 sesiones</option>
+      </select>
+      <p></p>
+      <legend>Elige cual fisioterapeuta</legend>
+      <br>
+      <input list="Fisioterapeutas">
+        <datalist id="Fisioterapeutas">
+        <option value="Sandra"></option>
+        <option value="Esther"></option>
+        <option value="Imanol"></option>
+        </datalist>
+        <br>
+      <legend>Elige genero</legend>
+      <input type="radio" name="sexo" value="H">Hombre
+      <input type="radio" name="sexo" value="M">Mujer
+      <br>
+      <legend>ESCRIBE UN COMENTARIO DE TEXTO</legend>
+      <textarea name="comentario" id="comentario" cols="40px" rows="40px" maxlength="50"></textarea>
+      <br>
+      <input type="submit" value="Enviar"><input type="reset" value="Borrar">
+    </fieldset>
+
+    </form>
+
+   
+    
+</body>
+</html>
