@@ -11,7 +11,7 @@
     <table>
         
         <tr>
-            <td>Ca<br></brZ><img src="img/Ca.png" class="tamaño"></td>
+            <td><a href="https://carmasalud.com">Ca<br><img src="img/Ca.png" class="tamaño"></a></td>
             <td>Dd<br><img src="img/Dd.png" class="tamaño"></td>
             <td colspan="4" id="texto">Tabla Periodica de Marvel</td>
             <td>Tr<br><img src="img/Tr.png" class="tamaño"></td>
@@ -59,6 +59,8 @@
       <br>
       Telefono: <input type="tel" name="Telefono">
       <p></p>
+    </fieldset>
+    <fieldset>
       <legend>ELIGE ENTRE LAS SIGUIENTES OPCIONES</legend>
       <br>
       <select>
@@ -75,15 +77,40 @@
         <option value="Esther"></option>
         <option value="Imanol"></option>
         </datalist>
-        <br>
+    </fieldset>
+     <br>
+     <fieldset>
       <legend>Elige genero</legend>
       <input type="radio" name="sexo" value="H">Hombre
       <input type="radio" name="sexo" value="M">Mujer
       <br>
       <legend>ESCRIBE UN COMENTARIO DE TEXTO</legend>
-      <textarea name="comentario" id="comentario" cols="40px" rows="40px" maxlength="50"></textarea>
+      <textarea name="comentario" id="comentario" cols="20px" rows="20px" maxlength="50"></textarea>
       <br>
       <input type="submit" value="Enviar"><input type="reset" value="Borrar">
+      <br>
+      <input type="number" max="10">
+      <br>
+      <input type="range" max="25" name="numeros" value="numeros">
+      <br>
+      <input type="checkbox">
+      <select name="fruta" id="multiple">
+        <option value="1">Manzanas</option>
+        <option value="2">Peras</option>
+        <option value="3">Limones</option>
+      </select>
+      <br>
+  
+        <optgroup label="opciones">
+            <option value="1" label="opcion1"></option>
+            <option value="2" label="opcuion2"></option>
+
+        </optgroup>
+     
+    <br>
+    <input type="color" name="selector de colores" id="selectorcolor">
+    <br>
+     <label>nombre</label>
     </fieldset>
 
     </form>
